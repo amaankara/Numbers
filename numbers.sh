@@ -3,9 +3,9 @@
 # Amaan Karachiwala
 
 echo "Enter a positive number"
-read number
-N = $1
-while [ $number -gt $N ]
+read NUM
+N=1
+while [ "$N" -le "$NUM"  ]
 do
 	if [ $((N%2)) - eq 0 ]
 	then
